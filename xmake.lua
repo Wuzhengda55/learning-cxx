@@ -16,5 +16,9 @@ target("learn")
 target("summary")
     set_kind("binary")
     add_deps("test")
+<<<<<<< HEAD
     add_ldflags("-pthread")
+=======
+	add_ldflags("-pthread")
+>>>>>>> 4064cbac002e68c0b0a4102e722d0d9abfb8a461
     add_files("learn/summary.cpp")
